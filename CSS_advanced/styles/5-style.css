@@ -7,7 +7,7 @@
     --text-color: var(--color-black);
 
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: var(--font-family-base);
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
@@ -40,7 +40,11 @@ a {
     color: var(--text-color);
 }
 
-.section-tagline,
+.section-tagline {
+    color: var(--color-primary);
+    font-size: var(--font-size-medium);
+}
+
 .card-category {
     color: var(--color-primary);
     font-size: var(--font-size-medium);
