@@ -14,6 +14,10 @@ html {
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 .section-tagline,
 .card-category {
     color: var(--color-primary);

@@ -32,6 +32,10 @@ body {
     color: var(--color-primary);
 }
 
+.visually-hidden {
+    display: none;
+}
+
 a {
     color: var(--text-color);
 }
