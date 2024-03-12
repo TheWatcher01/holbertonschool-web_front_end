@@ -30,6 +30,7 @@ body {
 .section-tagline,
 .card-category {
     color: var(--color-primary);
+    font-size: var(--font-size-medium);
 }
 
 .visually-hidden {
