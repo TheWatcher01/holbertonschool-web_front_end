@@ -7,7 +7,7 @@
     --text-color: var(--color-black);
 
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: var(--font-family-base);
 
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
@@ -27,6 +27,19 @@ body {
     font-family: var(--font-family-base);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-title);
+}
+
+a {
+    color: var(--text-color);
+}
+
 .section-tagline,
 .card-category {
     color: var(--color-primary);
@@ -35,17 +48,4 @@ body {
 
 .visually-hidden {
     display: none;
-}
-
-a {
-    color: var(--text-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-family-title);
 }
