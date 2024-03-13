@@ -196,7 +196,7 @@ a:active {
 }
 
 .section-hero .section-inner {
-    padding: 10rem 40rem 2rem 0rem;
+    padding: 10rem 40rem 2rem 0;
 }
 
 .row::after {
