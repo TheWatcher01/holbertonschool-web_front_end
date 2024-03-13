@@ -54,7 +54,7 @@
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
-    --button-hover-background-color: var(--color-primary);
+    --button-hover-background: var(--color-primary);
 }
 
 *,
@@ -114,7 +114,7 @@ a:active {
 .button-display:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-hover-background-color);
+    background-color: var(--button-hover-background);
 }
 
 .container {
