@@ -63,8 +63,8 @@ a {
     color: var(--color-primary);
     font-size: var(--font-size-medium);
     font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
     text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
 
 .card-category {
