@@ -51,6 +51,7 @@ h6 {
 }
 
 a {
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -60,7 +61,6 @@ a {
 
 .section-tagline {
     color: var(--color-primary);
-    font-size: var(--font-size-medium);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
