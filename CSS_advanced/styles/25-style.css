@@ -217,6 +217,16 @@ ul.row {
     font-size: var(--font-size-medium);
 }
 
+.card-testimonial {
+    text-align: center;
+}
+
+.card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
 .footer {
     padding: var(--footer-padding);
 }
@@ -268,6 +278,12 @@ ul.row {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
+}
+
+.card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
