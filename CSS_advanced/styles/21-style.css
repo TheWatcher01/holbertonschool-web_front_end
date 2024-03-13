@@ -177,7 +177,7 @@ ul.row {
 
 [class^="col-"] {
     float: left;
-    padding: calc(var(--font-size-base) / 2);
+    padding: 0.5rem;
 }
 
 .col-1-3 {
