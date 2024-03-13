@@ -69,7 +69,8 @@ a:hover {
 }
 
 a:active {
-    color: var(--color-light-grey)
+    color: var(--color-light-grey);
+}
 
 .section-header {
     text-align: var(--section-header-align);
