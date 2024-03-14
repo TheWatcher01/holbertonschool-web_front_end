@@ -173,7 +173,7 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: calc(var(--font-size-base) / 2);
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
