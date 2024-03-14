@@ -42,7 +42,8 @@
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-white)
+    --nav-item-link-hover: var(--color-primary);
+
     --section-tagline-margin: 0;
 
     --button-display: inline-block;
@@ -172,11 +173,11 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: calc(var(--font-size-base) / 2) var(--font-size-base);
+    padding: calc(var(--font-size-base) / 2);
 }
 
 .nav .nav-link:hover {
-    color: var(--color-white);
+    color: var(--nav-item-link-hover);
 }
 
 .nav .nav-link::before {
